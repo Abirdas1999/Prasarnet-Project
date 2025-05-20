@@ -1,0 +1,30 @@
+# Node modules
+/node_modules
+
+# Environment variables
+.env
+.env.*  # Also ignore .env.development, .env.local, etc.
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Coverage reports
+/coverage
+
+# Optional: next.js, parcel, etc. (remove if not used)
+.next
+.parcel-cache
